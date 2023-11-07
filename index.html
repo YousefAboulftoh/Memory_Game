@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="login-overlay"></div>
+    <div class="login">
+        <input type="text" name="username" class="user" placeholder="User Name">
+        <button class="start">Start Game</button>
+        <div class="valid">Please Enter UserName.</div>
+    </div>
+    <div class="congrat">
+        congratulation! You Pass All Cards
+    </div>
+    <div class="fail">
+        <span></span>
+        <button class="try-again">Try Again</button>
+    </div>
+    <div class="memory-container">
+        <div class="memory-info">
+            <div class="name">Hello : <span></span></div>
+            <div class="tries">Wrong Tries: <span>0</span></div>
+            <div class="countdown">Timer: <span></span></div>
+        </div>
+        <div class="game-container">
+            <div class="game-block" data-tech="vuejs">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/vuejs.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="vuejs">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/vuejs.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="reactjs">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/react.svg" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="reactjs">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/react.svg" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="angularjs">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/anguar.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="angularjs">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/anguar.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="bootstrap">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/bootstrap.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="bootstrap">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/bootstrap.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="css">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/css.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="css">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/css.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="github">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/github.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="github">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/github.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="html">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/html.jpg" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="html">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/html.jpg" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="js">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/js.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="js">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/js.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="typescript">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/typescript.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="typescript">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/typescript.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="gulp">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/gulp.png" alt="">
+                </div>
+            </div>
+            <div class="game-block" data-tech="gulp">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="img/gulp.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio id="success" src="success-1-6297.mp3" preload="auto"></audio>
+    <audio id="fail" src="negative_beeps-6008.mp3" preload="auto"></audio>
+    <audio id="failure" src="failure.mp3" preload="auto"></audio>
+    <audio id="start" src="start.mp3" preload="auto"></audio>
+    <audio id="finshed" src="finshed.mp3" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+
+</html>
