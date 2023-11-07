@@ -7,7 +7,7 @@ let tries = document.querySelector(`.tries span`)
 let failureContainer = document.querySelector(`.fail`)
 let success = 0;
 let interval;
-let timer = 5;
+let timer = 100;
 let duration = 500;
 // Make Focus On UserInput When Page Load
 window.onload = _ => userInput.focus();
